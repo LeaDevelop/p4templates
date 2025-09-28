@@ -73,16 +73,20 @@
   ],
   "types": {
     "binary+S2w": [
-        "//....exe",
-        "//....dll",
-        "//....lib",
         "//....app",
+        "//....dll",
         "//....dylib",
-        "//....stub",
-        "//....ipa"
+        "//....exe",
+        "//....exp",
+        "//....ipa",
+        "//....lib",
+        "//....pdb",
+        "//....stub"
     ],
     "binary+l": [
         "//....uasset",
+        "//....ubulk",
+        "//....uexp",
         "//....umap",
         "//....upk",
         "//....udk",
@@ -113,6 +117,7 @@
         "//....modules",
         "//....pdm",
         "//....py",
+        "//....rc",
         "//....target",
         "//....uatbuildrecord",
         "//....uproject",
