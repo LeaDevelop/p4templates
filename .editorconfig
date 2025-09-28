@@ -1,0 +1,47 @@
+# top-most EditorConfig file
+root = true
+
+# Windows batch files
+[*.{bat,cmd}]
+indent_style = space
+indent_size = 2
+
+# Python configuration files
+[*.{coveragerc,flake8,pylintrc}]
+indent_style = space
+indent_size = 4
+
+# Configuration files
+[*.{ini,cfg,conf}]
+indent_style = space
+indent_size = 4
+
+# Groovy files
+[*.{groovy,gradle}]
+indent_style = space
+indent_size = 4
+
+# JavaScript/TypeScript files
+[*.{js,ts,jsx,tsx}]
+indent_style = space
+indent_size = 2
+
+# JSON files
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+# Text files
+[*.txt]
+indent_style = space
+indent_size = 2
